@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Support - Diyagala Boys' Town</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-top: 2rem;
+        }
+        .support-list {
+            list-style: none;
+        }
+        .support-list li {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid var(--secondary);
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-right: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            color: var(--text-light);
+        }
+        .support-list h4 {
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+        .contact-details table {
+            margin-top: 1.5rem;
+            box-shadow: none;
+        }
+        .contact-details th {
+            width: 30%;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            margin-top: 2rem;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-light);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="images/DBT%20logo.jpeg" alt="DBT Logo" class="nav-logo"></a>
+            <button class="mobile-menu-btn">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="activities.html">Activities & Impact</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 400px; height: 400px; background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('images/image20.jpg') center/cover;">
+        <div class="hero-content">
+            <h1 style="font-size: 3rem;">Contact & Get Involved</h1>
+            <p>Support our mission to empower youth</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact-grid">
+            <div>
+                <h2 class="section-title" style="text-align: left;">Ways to Support</h2>
+                <ul class="support-list">
+                    <li>
+                        <h4>Sponsor a Boy's Education</h4>
+                        <p>Fund annual expenses for student accommodation, meals, tools, and training materials.</p>
+                    </li>
+                    <li>
+                        <h4>Equipment & Tool Donation</h4>
+                        <p>Donate tools, safety gear, automotive components, or workshop equipment.</p>
+                    </li>
+                    <li>
+                        <h4>Industry Placement Partnerships</h4>
+                        <p>Provide internships, apprenticeships, or job placements for graduating students.</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="contact-details">
+                <h2 class="section-title" style="text-align: left;">Direct Contact Details</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Institution</th>
+                            <td>Diyagala Boys' Town</td>
+                        </tr>
+                        <tr>
+                            <th>Management</th>
+                            <td>De La Salle Brothers of the Christian Schools (District of Colombo)</td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td>Ragama, Western Province, Sri Lanka</td>
+                        </tr>
+                        <tr>
+                            <th>Social Media</th>
+                            <td><a href="https://facebook.com/DiyagalaBoysTownSrilanka" target="_blank" style="color: var(--primary-light); font-weight: 600;">facebook.com/DiyagalaBoysTownSrilanka</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="map-container">
+                    <!-- Replace src with actual Google Maps embed link for Diyagala Boys Town Ragama -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126715.79424694935!2d79.84542385458983!3d7.034789540033107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f79f53e6b485%3A0xc3b8a3e7dbb1f452!2sDiyagala%20Boys&#39;%20Town!5e0!3m2!1sen!2slk!4v1700000000000!5m2!1sen!2slk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 5rem; text-align: center; background: var(--card-bg); padding: 4rem 2rem; border-radius: 16px; box-shadow: var(--shadow-sm); border: 1px solid rgba(255,255,255,0.05);">
+            <h2 class="section-title">Send us an Inquiry</h2>
+            <p style="margin-bottom: 2rem; color: var(--text-light);">Have questions about our programs or want to become a sponsor? Fill out the form below.</p>
+            
+            <!-- Placeholder for Google Form Embed -->
+            <div style="background: rgba(0,0,0,0.2); border: 2px dashed rgba(255,255,255,0.2); padding: 4rem 2rem; border-radius: 8px; max-width: 800px; margin: 0 auto;">
+                <h4 style="color: var(--text-light); font-weight: 400;">[ Google Form Embed Area ]</h4>
+                <p style="color: var(--text-light); font-size: 0.9rem; margin-top: 1rem;">To enable this, create a form in Google Forms, click Send -> Embed (<>), and paste the HTML code here in contact.html</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Diyagala Boys' Town</h3>
+                <p>Managed by De La Salle Brothers of the Christian Schools (District of Colombo)</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Ragama, Western Province, Sri Lanka</p>
+                <a href="https://facebook.com/DiyagalaBoysTownSrilanka" target="_blank" style="display: inline-block; margin-top: 1rem; color: var(--secondary);">Follow us on Facebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Diyagala Boys' Town. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

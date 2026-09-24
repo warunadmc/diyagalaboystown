@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities & Impact - Diyagala Boys' Town</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        .gallery-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: var(--shadow-lg);
+        }
+        .testimonial {
+            background: var(--primary);
+            color: var(--white);
+            padding: 4rem 2rem;
+            border-radius: 16px;
+            text-align: center;
+            margin: 4rem 0;
+            box-shadow: var(--shadow-lg);
+        }
+        .testimonial p {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .testimonial h4 {
+            color: var(--secondary);
+            font-size: 1.2rem;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="images/DBT%20logo.jpeg" alt="DBT Logo" class="nav-logo"></a>
+            <button class="mobile-menu-btn">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="activities.html" class="active">Activities & Impact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 400px; height: 400px; background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('images/badminton.jpg') center/cover;">
+        <div class="hero-content">
+            <h1 style="font-size: 3rem;">Activities & Community Life</h1>
+            <p>Developing well-rounded individuals through sports, events, and community.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Events & Projects Showcase</h2>
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon">🏆</div>
+                <h3>Annual Sports Meet</h3>
+                <p>Developing teamwork, athletic excellence, and sportsmanship.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🌿</div>
+                <h3>Agricultural Harvests</h3>
+                <p>Promoting sustainability through our own organic farming and green drive initiatives.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎓</div>
+                <h3>Graduation & Certification</h3>
+                <p>Celebrating students completing technical competencies and transitioning into employment.</p>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <p>"Diyagala Boys' Town gave me more than just technical training—it gave me a family, discipline, and a direction in life. Today, I work as a certified technician, supporting my family with dignity."</p>
+            <h4>— Former Student & Lasallian Alumnus</h4>
+        </div>
+
+        <h2 class="section-title">Visual Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/image11.jpg" alt="Gallery Image 1">
+            <img src="images/image12.jpg" alt="Gallery Image 2">
+            <img src="images/image13.jpg" alt="Gallery Image 3">
+            <img src="images/image14.jpg" alt="Gallery Image 4">
+            <img src="images/image15.jpg" alt="Gallery Image 5">
+            <img src="images/image16.jpg" alt="Gallery Image 6">
+            <img src="images/image17.jpg" alt="Gallery Image 7">
+            <img src="images/image18.jpg" alt="Gallery Image 8">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Diyagala Boys' Town</h3>
+                <p>Managed by De La Salle Brothers of the Christian Schools (District of Colombo)</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Ragama, Western Province, Sri Lanka</p>
+                <a href="https://facebook.com/DiyagalaBoysTownSrilanka" target="_blank" style="display: inline-block; margin-top: 1rem; color: var(--secondary);">Follow us on Facebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Diyagala Boys' Town. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
